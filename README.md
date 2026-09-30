@@ -1,5 +1,11 @@
 # DrawWork-Docs
 
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![VitePress](https://img.shields.io/badge/built%20with-VitePress-646cff.svg)](https://vitepress.dev)
+[![Node](https://img.shields.io/badge/node-%3E%3D18-339933.svg)](https://nodejs.org)
+[![Deploy: Cloudflare Pages](https://img.shields.io/badge/deploy-Cloudflare%20Pages-f38020.svg)](https://pages.cloudflare.com)
+[![Conventional Commits](https://img.shields.io/badge/commits-conventional-fe5196.svg)](https://www.conventionalcommits.org)
+
 Source of the [Draw](https://draw.hatomagi.com) documentation site, built with [VitePress](https://vitepress.dev).
 
 ## Requirements
@@ -48,3 +54,7 @@ Content can be edited from [Pages CMS](https://app.pagescms.org) using `.pages.y
 ## Commits
 
 [Conventional Commits](https://www.conventionalcommits.org), English, subject line only.
+
+## License
+
+Content is licensed under [CC BY 4.0](LICENSE). `public/images/kikkakewakitkat.jpg` belongs to its original owner and is not covered.
