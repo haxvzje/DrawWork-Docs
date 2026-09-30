@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Draw's Guidebook",
   description: "Documentation pages for Draw.",
-  srcExclude: ['CLAUDE.md'],
+  srcExclude: ['CLAUDE.md', 'README.md'],
   head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
   themeConfig: {
     logo: '/logo.png',
