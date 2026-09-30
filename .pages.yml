@@ -1,0 +1,77 @@
+media:
+  input: public/images
+  output: /images
+  rename: safe
+  categories: [image]
+
+content:
+  - name: home
+    label: Home
+    type: file
+    path: index.md
+    fields:
+      - { name: body, type: rich-text }
+
+  - name: user
+    label: For User
+    type: group
+    items:
+      - name: for-user
+        label: User commands
+        type: collection
+        path: for-user
+        filename: "{primary}.md"
+        subfolders: false
+        fields:
+          - { name: body, type: rich-text }
+        view:
+          primary: name
+          sort: name
+
+  - name: extension-commands
+    label: Extension Commands
+    type: file
+    path: extension-commands.md
+    fields:
+      - { name: body, type: rich-text }
+
+  - name: toggle-commands
+    label: Toggle Commands
+    type: file
+    path: toggle-commands.md
+    fields:
+      - { name: body, type: rich-text }
+
+  # Raw editor (no fields): the page uses a VitePress `::: danger` container
+  # that the rich-text editor could mangle.
+  - name: media-commands-nsfw
+    label: Media Commands (NSFW)
+    type: file
+    path: media-commands-nsfw.md
+    format: code
+
+  - name: developer
+    label: For Developer
+    type: file
+    path: for-developer/api.md
+    fields:
+      - { name: body, type: rich-text }
+
+  - name: advertisement
+    label: Advertising Links
+    type: file
+    path: advertisement/advertising-links.md
+    fields:
+      - { name: body, type: rich-text }
+
+  - name: policy
+    label: Policy
+    type: collection
+    path: policy
+    filename: "{primary}.md"
+    subfolders: false
+    fields:
+      - { name: body, type: rich-text }
+    view:
+      primary: name
+      sort: name

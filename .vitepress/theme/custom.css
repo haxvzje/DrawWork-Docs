@@ -1,0 +1,10 @@
+/* Page cover banner (GitBook-style): <img class="cover" src="..."> */
+.vp-doc img.cover {
+  display: block;
+  width: 100%;
+  height: 220px;
+  margin: 0 0 24px;
+  object-fit: cover;
+  object-position: center 75%;
+  border-radius: 12px;
+}
